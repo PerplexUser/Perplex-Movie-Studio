@@ -2,6 +2,8 @@
 
 **0.1.1-dev · Revision 2** — local Windows video editor by Michael Lappenbusch · www.perplex.click.
 
+The 5 Zip files in the folder "\third-party\sources\" must be extracted to "\third-party\sources\qtbase-everywhere-src-6.8.3.tar.xz"
+
 ## Start
 
 Run `PerplexMovieStudio-0.1.1-dev-r2-Windows-x64-Setup.exe`. Installation is for the current user and creates a Start menu shortcut. Alternatively extract the entire portable ZIP and run `PerplexMovieStudio.exe`. Keep the EXE, DLLs, plugins, translations and licenses together. No Python, SDK, account or internet connection is needed.
