@@ -1,0 +1,140 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "version": 1,
+  "metadata": {
+    "component": {
+      "type": "application",
+      "name": "Perplex Movie Studio",
+      "version": "0.1.1-dev-r2"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "Qt",
+      "version": "6.8.3",
+      "licenses": [
+        {
+          "expression": "LGPL-3.0-only"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://download.qt.io/archive/qt/6.8/6.8.3/submodules/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "FFmpeg",
+      "version": "7.1.5",
+      "licenses": [
+        {
+          "expression": "LGPL-2.1-or-later"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://ffmpeg.org/releases/ffmpeg-7.1.5.tar.xz"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "LAME",
+      "version": "3.100",
+      "licenses": [
+        {
+          "expression": "LGPL-2.0-or-later"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://deb.debian.org/debian/pool/main/l/lame/lame_3.100.orig.tar.gz"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "MinGW-w64",
+      "version": "12.0.0",
+      "licenses": [
+        {
+          "expression": "ZPL-2.1 AND MIT AND BSD-3-Clause"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://www.mingw-w64.org/"
+        }
+      ]
+    },
+    {
+      "type": "library",
+      "name": "GCC runtime",
+      "version": "14.2.0",
+      "licenses": [
+        {
+          "expression": "GPL-3.0-only WITH GCC-exception-3.1"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://gcc.gnu.org/"
+        }
+      ]
+    },
+    {
+      "type": "application",
+      "name": "NSIS",
+      "version": "3.11",
+      "licenses": [
+        {
+          "expression": "Zlib"
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "distribution",
+          "url": "https://nsis.sourceforge.io/"
+        }
+      ]
+    }
+  ],
+  "properties": [
+    {
+      "name": "pms:ffmpeg:gpl",
+      "value": "disabled"
+    },
+    {
+      "name": "pms:ffmpeg:nonfree",
+      "value": "disabled"
+    },
+    {
+      "name": "pms:ffmpeg:network",
+      "value": "disabled"
+    },
+    {
+      "name": "pms:windows-execution-tested",
+      "value": "false"
+    },
+    {
+      "name": "pms:pixel-cpu-flags",
+      "value": "0 (scalar)"
+    },
+    {
+      "name": "pms:video-output",
+      "value": "MPEG-4 Part 2, software"
+    },
+    {
+      "name": "pms:project-schema",
+      "value": "2; reads 1 and 2"
+    }
+  ]
+}
