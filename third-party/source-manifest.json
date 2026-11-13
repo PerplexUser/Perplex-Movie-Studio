@@ -1,0 +1,27 @@
+[
+  {
+    "file": "ffmpeg-7.1.5.tar.xz",
+    "sha256": "de668509caf9e35e3cd162473441fdb29538c6d96ed080292b3cf9e6fc5d558f",
+    "size": 11050340
+  },
+  {
+    "file": "lame-3.100.tar.gz",
+    "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e",
+    "size": 1524133
+  },
+  {
+    "file": "qtbase-everywhere-src-6.8.3.tar.xz",
+    "sha256": "56001b905601bb9023d399f3ba780d7fa940f3e4861e496a7c490331f49e0b80",
+    "size": 48426536
+  },
+  {
+    "file": "qtmultimedia-everywhere-src-6.8.3.tar.xz",
+    "sha256": "32e82307d783172a3b984cc3c47c5e4e8b819cee3cbfc702c7012c47f15f6b01",
+    "size": 9705340
+  },
+  {
+    "file": "qttranslations-everywhere-src-6.8.3.tar.xz",
+    "sha256": "c3c61d79c3d8fe316a20b3617c64673ce5b5519b2e45535f49bee313152fa531",
+    "size": 1577680
+  }
+]
