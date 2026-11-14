@@ -1,8 +1,10 @@
 # Perplex Movie Studio
 
-**0.1.1-dev · Revision 2** — local Windows video editor by Michael Lappenbusch · www.perplex.click.
+**0.1.1-dev · Revision 2** — local video editor by Michael Lappenbusch · www.perplex.click.
 
 The 5 Zip files in the folder "\third-party\sources\" must be extracted to "\third-party\sources\qtbase-everywhere-src-6.8.3.tar.xz"
+
+Installation files: https://github.com/PerplexUser/Perplex-Movie-Studio/releases/tag/PerplexMovieStudio
 
 ## Start
 
