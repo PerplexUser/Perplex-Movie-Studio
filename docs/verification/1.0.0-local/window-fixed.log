@@ -1,0 +1,101 @@
+********* Start testing of WindowTests *********
+Config: Using QtTest library 6.8.3, Qt 6.8.3 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 10.3.1 20210422 (Red Hat 10.3.1-1)), debian 13
+PASS   : WindowTests::initTestCase()
+QINFO  : WindowTests::about() qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 7.1 LGPL version 2.1 or later
+socket(): Operation not permitted
+socket(): Operation not permitted
+QWARN  : WindowTests::about() PulseAudioService: pa_context_connect() failed
+PASS   : WindowTests::about()
+PASS   : WindowTests::typingKeepsCursorAndSelection()
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/agent/.cache/pms-tests/workflow/session-mIBcJB/preview-4.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:00.40, start: 0.000000, bitrate: 339 kb/s
+  Stream #0:0[0x1](und): Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 327 kb/s, 32.73 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 mpeg4
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 2 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+QINFO  : WindowTests::opacityPreviewAndLock() qt.multimedia.playbackengine.codec: "No HW decoder found"
+QWARN  : WindowTests::opacityPreviewAndLock() QRhi* {anonymous}::ThreadLocalRhiHolder::ensureRhi(QRhi*) : No RHI backend. Using CPU conversion.
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/agent/.cache/pms-tests/workflow/session-mIBcJB/preview-5.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:00.40, start: 0.000000, bitrate: 339 kb/s
+  Stream #0:0[0x1](und): Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 327 kb/s, 32.73 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 mpeg4
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 2 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+QINFO  : WindowTests::opacityPreviewAndLock() qt.multimedia.playbackengine.codec: "No HW decoder found"
+PASS   : WindowTests::opacityPreviewAndLock()
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/agent/.cache/pms-tests/workflow/session-CovxkW/preview-2.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 315 kb/s
+  Stream #0:0[0x1](und): Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 305 kb/s, 30.51 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 mpeg4
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 2 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+QINFO  : WindowTests::workflow() qt.multimedia.playbackengine.codec: "No HW decoder found"
+QWARN  : WindowTests::workflow() No audio device detected
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/agent/.cache/pms-tests/workflow/session-CovxkW/preview-13.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 842 kb/s
+  Stream #0:0[0x1](und): Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 720x1280 [SAR 1:1 DAR 9:16], 841 kb/s, 30.51 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 mpeg4
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 2 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+QINFO  : WindowTests::workflow() qt.multimedia.playbackengine.codec: "No HW decoder found"
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/home/agent/.cache/pms-tests/workflow/session-CovxkW/preview-14.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2mp41
+    encoder         : Lavf61.7.100
+  Duration: 00:00:02.00, start: 0.000000, bitrate: 1078 kb/s
+  Stream #0:0[0x1](und): Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 720x1280 [SAR 1:1 DAR 9:16], 1081 kb/s, 30.51 fps, 30 tbr, 15360 tbn (default)
+      Metadata:
+        handler_name    : VideoHandler
+        vendor_id       : [0][0][0][0]
+        encoder         : Lavc61.19.101 mpeg4
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 2 kb/s (default)
+      Metadata:
+        handler_name    : SoundHandler
+        vendor_id       : [0][0][0][0]
+QINFO  : WindowTests::workflow() qt.multimedia.playbackengine.codec: "No HW decoder found"
+PASS   : WindowTests::workflow()
+PASS   : WindowTests::cleanupTestCase()
+Totals: 6 passed, 0 failed, 0 skipped, 0 blacklisted, 9700ms
+********* Finished testing of WindowTests *********

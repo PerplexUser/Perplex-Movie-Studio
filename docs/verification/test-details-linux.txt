@@ -1,0 +1,205 @@
+Internal ctest changing into directory: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux
+UpdateCTestConfiguration  from :/workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/DartConfiguration.tcl
+Parse Config file:/workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/DartConfiguration.tcl
+UpdateCTestConfiguration  from :/workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/DartConfiguration.tcl
+Parse Config file:/workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/DartConfiguration.tcl
+Test project /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: domain
+
+1: Test command: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/domain_tests
+1: Working Directory: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux
+1: Test timeout computed to be: 1500
+1: PASS 5916 domain assertions
+1/6 Test #1: domain ...........................   Passed    0.01 sec
+test 2
+    Start 2: services
+
+2: Test command: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/service_tests
+2: Working Directory: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux
+2: Environment variables: 
+2:  QT_QPA_PLATFORM=offscreen
+2: Test timeout computed to be: 300
+2: ********* Start testing of ServiceTests *********
+2: Config: Using QtTest library 6.8.3, Qt 6.8.3 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 10.3.1 20210422 (Red Hat 10.3.1-1)), debian 13
+2: PASS   : ServiceTests::initTestCase()
+2: PASS   : ServiceTests::probeMetadataAndInvalid()
+2: PASS   : ServiceTests::formatsImport()
+2: PASS   : ServiceTests::atomicPersistenceAndRelink()
+2: PASS   : ServiceTests::exportAllFourFormats()
+2: PASS   : ServiceTests::silenceAndAudioOnly()
+2: PASS   : ServiceTests::layeringGapsAndSourceRanges()
+2: PASS   : ServiceTests::fadeSplitMaintainsAudio()
+2: PASS   : ServiceTests::nonzeroTimestampsAndVfr()
+2: PASS   : ServiceTests::trackMuteAnd1080Profile()
+2: PASS   : ServiceTests::cancelPreservesDestination()
+2: PASS   : ServiceTests::badDestinationAndSourceProtection()
+2: PASS   : ServiceTests::cleanupTestCase()
+2: Totals: 13 passed, 0 failed, 0 skipped, 0 blacklisted, 5322ms
+2: ********* Finished testing of ServiceTests *********
+2/6 Test #2: services .........................   Passed    5.40 sec
+test 3
+    Start 3: ui_smoke
+
+3: Test command: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/PerplexMovieStudio "--self-test-ui"
+3: Working Directory: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux
+3: Environment variables: 
+3:  QT_QPA_PLATFORM=offscreen
+3: Test timeout computed to be: 25
+3: qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 7.1 LGPL version 2.1 or later
+3: socket(): Operation not permitted
+3: socket(): Operation not permitted
+3: PulseAudioService: pa_context_connect() failed
+3: PASS UI widgets and English/German translation
+3/6 Test #3: ui_smoke .........................   Passed    0.54 sec
+test 4
+    Start 4: preview_playback
+
+4: Test command: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/preview_tests
+4: Working Directory: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux
+4: Environment variables: 
+4:  QT_QPA_PLATFORM=offscreen
+4: Test timeout computed to be: 25
+4: ********* Start testing of PreviewTests *********
+4: Config: Using QtTest library 6.8.3, Qt 6.8.3 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 10.3.1 20210422 (Red Hat 10.3.1-1)), debian 13
+4: PASS   : PreviewTests::initTestCase()
+4: QINFO  : PreviewTests::playsAndSeeksLocalMedia() qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 7.1 LGPL version 2.1 or later
+4: socket(): Operation not permitted
+4: socket(): Operation not permitted
+4: QWARN  : PreviewTests::playsAndSeeksLocalMedia() PulseAudioService: pa_context_connect() failed
+4: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/fixtures/h264-aac.mp4':
+4:   Metadata:
+4:     major_brand     : isom
+4:     minor_version   : 512
+4:     compatible_brands: isomiso2avc1mp41
+4:     encoder         : Lavf61.7.103
+4:   Duration: 00:00:01.00, start: 0.000000, bitrate: 221 kb/s
+4:   Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(progressive), 160x90 [SAR 1:1 DAR 16:9], 129 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+4:       Metadata:
+4:         handler_name    : VideoHandler
+4:         vendor_id       : [0][0][0][0]
+4:         encoder         : Lavc61.19.101 libx264
+4:   Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, mono, fltp, 70 kb/s (default)
+4:       Metadata:
+4:         handler_name    : SoundHandler
+4:         vendor_id       : [0][0][0][0]
+4: QINFO  : PreviewTests::playsAndSeeksLocalMedia() qt.multimedia.playbackengine.codec: "No HW decoder found"
+4: QWARN  : PreviewTests::playsAndSeeksLocalMedia() No audio device detected
+4: QWARN  : PreviewTests::playsAndSeeksLocalMedia() QRhi* {anonymous}::ThreadLocalRhiHolder::ensureRhi(QRhi*) : No RHI backend. Using CPU conversion.
+4: PASS   : PreviewTests::playsAndSeeksLocalMedia()
+4: PASS   : PreviewTests::cleanupTestCase()
+4: Totals: 3 passed, 0 failed, 0 skipped, 0 blacklisted, 295ms
+4: ********* Finished testing of PreviewTests *********
+4/6 Test #4: preview_playback .................   Passed    0.33 sec
+test 5
+    Start 5: visual_features
+
+5: Test command: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/feature_tests
+5: Working Directory: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux
+5: Environment variables: 
+5:  QT_QPA_PLATFORM=offscreen
+5: Test timeout computed to be: 300
+5: ********* Start testing of FeatureTests *********
+5: Config: Using QtTest library 6.8.3, Qt 6.8.3 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 10.3.1 20210422 (Red Hat 10.3.1-1)), debian 13
+5: PASS   : FeatureTests::initTestCase()
+5: PASS   : FeatureTests::fullFrameColors(320x180)
+5: PASS   : FeatureTests::fullFrameColors(1280x720)
+5: PASS   : FeatureTests::fullFrameColors(1920x1080)
+5: PASS   : FeatureTests::fullFrameColors(180x320)
+5: PASS   : FeatureTests::fullFrameColors(720x1280)
+5: PASS   : FeatureTests::fullFrameColors(1080x1920)
+5: PASS   : FeatureTests::phoneRotation()
+5: PASS   : FeatureTests::imagesAndText()
+5: PASS   : FeatureTests::corrections()
+5: PASS   : FeatureTests::transitions(fade)
+5: PASS   : FeatureTests::transitions(wipe)
+5: PASS   : FeatureTests::transitions(slide)
+5: PASS   : FeatureTests::persistenceAndAtomicOutput()
+5: PASS   : FeatureTests::cleanupTestCase()
+5: Totals: 15 passed, 0 failed, 0 skipped, 0 blacklisted, 11593ms
+5: ********* Finished testing of FeatureTests *********
+5/6 Test #5: visual_features ..................   Passed   11.61 sec
+test 6
+    Start 6: editor_workflow
+
+6: Test command: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/window_tests
+6: Working Directory: /workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux
+6: Environment variables: 
+6:  QT_QPA_PLATFORM=offscreen
+6: Test timeout computed to be: 120
+6: ********* Start testing of WindowTests *********
+6: Config: Using QtTest library 6.8.3, Qt 6.8.3 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 10.3.1 20210422 (Red Hat 10.3.1-1)), debian 13
+6: PASS   : WindowTests::initTestCase()
+6: QINFO  : WindowTests::about() qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 7.1 LGPL version 2.1 or later
+6: socket(): Operation not permitted
+6: socket(): Operation not permitted
+6: QWARN  : WindowTests::about() PulseAudioService: pa_context_connect() failed
+6: PASS   : WindowTests::about()
+6: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/workspace/scratch/86450f395b37/tmp/test-cache/pms-tests/workflow/session-GTGlfI/preview-2.mp4':
+6:   Metadata:
+6:     major_brand     : isom
+6:     minor_version   : 512
+6:     compatible_brands: isomiso2mp41
+6:     encoder         : Lavf61.7.103
+6:   Duration: 00:00:02.00, start: 0.000000, bitrate: 315 kb/s
+6:   Stream #0:0[0x1](und): Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 305 kb/s, 30.51 fps, 30 tbr, 15360 tbn (default)
+6:       Metadata:
+6:         handler_name    : VideoHandler
+6:         vendor_id       : [0][0][0][0]
+6:         encoder         : Lavc61.19.101 mpeg4
+6:   Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 2 kb/s (default)
+6:       Metadata:
+6:         handler_name    : SoundHandler
+6:         vendor_id       : [0][0][0][0]
+6: QINFO  : WindowTests::workflow() qt.multimedia.playbackengine.codec: "No HW decoder found"
+6: QWARN  : WindowTests::workflow() QRhi* {anonymous}::ThreadLocalRhiHolder::ensureRhi(QRhi*) : No RHI backend. Using CPU conversion.
+6: QWARN  : WindowTests::workflow() No audio device detected
+6: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/workspace/scratch/86450f395b37/tmp/test-cache/pms-tests/workflow/session-GTGlfI/preview-13.mp4':
+6:   Metadata:
+6:     major_brand     : isom
+6:     minor_version   : 512
+6:     compatible_brands: isomiso2mp41
+6:     encoder         : Lavf61.7.103
+6:   Duration: 00:00:02.00, start: 0.000000, bitrate: 842 kb/s
+6:   Stream #0:0[0x1](und): Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 720x1280 [SAR 1:1 DAR 9:16], 841 kb/s, 30.51 fps, 30 tbr, 15360 tbn (default)
+6:       Metadata:
+6:         handler_name    : VideoHandler
+6:         vendor_id       : [0][0][0][0]
+6:         encoder         : Lavc61.19.101 mpeg4
+6:   Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 2 kb/s (default)
+6:       Metadata:
+6:         handler_name    : SoundHandler
+6:         vendor_id       : [0][0][0][0]
+6: QINFO  : WindowTests::workflow() qt.multimedia.playbackengine.codec: "No HW decoder found"
+6: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/workspace/scratch/86450f395b37/tmp/test-cache/pms-tests/workflow/session-GTGlfI/preview-14.mp4':
+6:   Metadata:
+6:     major_brand     : isom
+6:     minor_version   : 512
+6:     compatible_brands: isomiso2mp41
+6:     encoder         : Lavf61.7.103
+6:   Duration: 00:00:02.00, start: 0.000000, bitrate: 1078 kb/s
+6:   Stream #0:0[0x1](und): Video: mpeg4 (Simple Profile) (mp4v / 0x7634706D), yuv420p, 720x1280 [SAR 1:1 DAR 9:16], 1081 kb/s, 30.51 fps, 30 tbr, 15360 tbn (default)
+6:       Metadata:
+6:         handler_name    : VideoHandler
+6:         vendor_id       : [0][0][0][0]
+6:         encoder         : Lavc61.19.101 mpeg4
+6:   Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 2 kb/s (default)
+6:       Metadata:
+6:         handler_name    : SoundHandler
+6:         vendor_id       : [0][0][0][0]
+6: QINFO  : WindowTests::workflow() qt.multimedia.playbackengine.codec: "No HW decoder found"
+6: PASS   : WindowTests::workflow()
+6: PASS   : WindowTests::cleanupTestCase()
+6: Totals: 4 passed, 0 failed, 0 skipped, 0 blacklisted, 7662ms
+6: ********* Finished testing of WindowTests *********
+6/6 Test #6: editor_workflow ..................   Passed    7.69 sec
+
+100% tests passed, 0 tests failed out of 6
+
+Total Test time (real) =  25.59 sec

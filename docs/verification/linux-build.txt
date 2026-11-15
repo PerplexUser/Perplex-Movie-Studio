@@ -1,0 +1,46 @@
+[  2%] Generating perplex_de_DE.qm
+[  8%] Built target pms_domain
+Updating '/workspace/scratch/86450f395b37/PerplexMovieStudio/build/linux/perplex_de_DE.qm'...
+    Generated 197 translation(s) (197 finished and 0 unfinished)
+[  8%] Built target pms_services_autogen_timestamp_deps
+[ 12%] Built target domain_tests
+[ 12%] Built target PerplexMovieStudio_lrelease
+[ 14%] Automatic MOC and UIC for target pms_services
+[ 14%] Built target pms_services_autogen
+[ 31%] Built target pms_services
+[ 31%] Built target service_tests_autogen_timestamp_deps
+[ 31%] Built target pms_ui_autogen_timestamp_deps
+[ 31%] Built target feature_tests_autogen_timestamp_deps
+[ 33%] Automatic MOC and UIC for target feature_tests
+[ 35%] Automatic MOC and UIC for target pms_ui
+[ 35%] Built target pms_ui_autogen
+[ 37%] Automatic MOC and UIC for target service_tests
+[ 39%] Built target service_tests_autogen
+[ 39%] Building CXX object CMakeFiles/pms_ui.dir/src/ui/MainWindow.cpp.o
+[ 45%] Built target service_tests
+[ 45%] Built target feature_tests_autogen
+[ 47%] Building CXX object CMakeFiles/feature_tests.dir/feature_tests_autogen/mocs_compilation.cpp.o
+[ 50%] Building CXX object CMakeFiles/feature_tests.dir/tests/integration/feature_tests.cpp.o
+[ 52%] Linking CXX executable feature_tests
+[ 52%] Built target feature_tests
+[ 54%] Linking CXX static library libpms_ui.a
+[ 68%] Built target pms_ui
+[ 68%] Built target preview_tests_autogen_timestamp_deps
+[ 68%] Built target PerplexMovieStudio_autogen_timestamp_deps
+[ 70%] Automatic MOC and UIC for target preview_tests
+[ 72%] Automatic MOC and UIC for target PerplexMovieStudio
+[ 72%] Built target preview_tests_autogen
+[ 72%] Built target PerplexMovieStudio_autogen
+[ 75%] Running rcc for resource PerplexMovieStudio_translations
+[ 77%] Linking CXX executable preview_tests
+[ 79%] Building CXX object CMakeFiles/PerplexMovieStudio.dir/build/linux/.qt/rcc/qrc_PerplexMovieStudio_translations.cpp.o
+[ 81%] Linking CXX executable PerplexMovieStudio
+[ 85%] Built target preview_tests
+[ 91%] Built target PerplexMovieStudio
+[ 91%] Built target window_tests_autogen_timestamp_deps
+[ 93%] Automatic MOC and UIC for target window_tests
+[ 93%] Built target window_tests_autogen
+[ 95%] Building CXX object CMakeFiles/window_tests.dir/window_tests_autogen/mocs_compilation.cpp.o
+[ 97%] Building CXX object CMakeFiles/window_tests.dir/tests/integration/window_tests.cpp.o
+[100%] Linking CXX executable window_tests
+[100%] Built target window_tests

@@ -1,0 +1,14 @@
+********* Start testing of WindowTests *********
+Config: Using QtTest library 6.8.3, Qt 6.8.3 (x86_64-little_endian-lp64 shared (dynamic) release build; by GCC 10.3.1 20210422 (Red Hat 10.3.1-1)), debian 13
+PASS   : WindowTests::initTestCase()
+QINFO  : WindowTests::typingKeepsCursorAndSelection() qt.multimedia.ffmpeg: Using Qt multimedia with FFmpeg version 7.1 LGPL version 2.1 or later
+socket(): Operation not permitted
+socket(): Operation not permitted
+QWARN  : WindowTests::typingKeepsCursorAndSelection() PulseAudioService: pa_context_connect() failed
+FAIL!  : WindowTests::typingKeepsCursorAndSelection() Compared values are not the same
+   Actual   (text->textCursor().position()): 0
+   Expected (expected.size())              : 1
+   Loc: [/workspace/scratch/86450f395b37/PerplexMovieStudio/tests/integration/window_tests.cpp(61)]
+PASS   : WindowTests::cleanupTestCase()
+Totals: 2 passed, 1 failed, 0 skipped, 0 blacklisted, 1111ms
+********* Finished testing of WindowTests *********
