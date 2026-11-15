@@ -3,6 +3,8 @@
 The 5 zip archives named qtbase-everywhere-src-6.8.3.tar.zip.001 through 005 must be extracted in the /third-party/sources/ directory.
 Additionally, there are 4 zip archives in the same directory—named qtdeclarative-everywhere-src-6.8.3.tar.zip.001 through 004—which must also be extracted.
 
+Installation files: https://github.com/PerplexUser/Perplex-Movie-Studio/releases/tag/v1.0.0
+
 macOS: native ARM64/Intel build and packaging instructions are in [docs/MACOS_DE.md](docs/MACOS_DE.md). The macOS bundles are ad-hoc signed, not notarized. Consult the matching build verification report for actual results.
 
 **1.0.0** — local video editor by Michael Lappenbusch · www.perplex.click.
